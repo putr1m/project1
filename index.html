@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Project-1</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div
+      class="flex flex-row justify-between mx-auto px-8 py-7 md:justify-center border border-black lg:row md:gap-x-10 sm:bg-red-400 md:bg-blue-800 xl:bg-purple-500"
+    >
+      <p class="text-xl border">Putri.</p>
+      <img src="assets/images/list.png" alt="" class="md:hidden" />
+      <div class="hidden md:flex flex-row gap-4 border">
+        <button class="text-s">Property</button>
+        <button class="text-s">Home</button>
+        <button class="text-s">Pages</button>
+        <button class="text-s">Blog</button>
+        <button class="text-s">Shop</button>
+        <button class="text-s border-black border-2 rounded-md px-2">
+          Submite Property
+        </button>
+      </div>
+    </div>
+    <!-- hero -->
+    <div
+      class="flex flex-row gap-6 bg-blue-200 w-auto h-64 rounded-tl-3xl rounded-bl-lg rounded-tr-lg rounded-br-3xl py-10 px-6 sm:justify-center sm:mx-auto max border-2 border-green-600"
+    >
+      <div class="flex flex-col z-10">
+        <p class="text-3xl font-bold">
+          Find your <br />
+          dreme Homes
+        </p>
+        <p class="text-base font-medium">
+          wheter you're buying, selling or renting, we can help you <br />
+          move forward
+        </p>
+      </div>
+      <div class="relative w-56">
+        <img
+          src="./assets/images/banner.png"
+          alt=""
+          class="absolute w-full right-64 bottom-3"
+        />
+      </div>
+    </div>
+    <div class="flex flex-col justify-center gap-y-20 sm:flex-row">
+      <div class="flex flex-col gap-y-5 sm:flex-row">
+        <div class="flex flex-col">
+          <p class="text-2xl">975K+</p>
+          <p class="text-l w-56 text-wrap">
+            Thousands of the best homes already sold
+          </p>
+        </div>
+        <div class="flex flex-col">
+          <p class="text-2xl">195K</p>
+          <p class="text-l w-60 text-wrap">
+            A wide selection of the best homes still available.
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-col">
+        <p class="text-2xl">Trusted by global brands</p>
+        <div
+          class="grid grid-cols grid-flow-cols place-items-start gap-y-2 md:grid-cols-3 gap-x-10"
+        >
+          <button class="text-l">Recharge</button>
+          <button class="text-l">U-Turn</button>
+          <button class="text-l">Vision</button>
+          <button class="text-l">Hitech</button>
+          <button class="text-l">Nextmove</button>
+          <button class="text-l">Umbrella</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
